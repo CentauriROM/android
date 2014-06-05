@@ -31,7 +31,7 @@
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
 
-  <default revision="refs/tags/android-4.4.3_r1"
+  <default revision="refs/tags/android-4.4.3_r1.1"
            remote="aosp"
            sync-c="true"
            sync-j="8" />
@@ -61,7 +61,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="centauri" revision="kk44" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-11.0" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-11.0" />
@@ -71,7 +71,7 @@
   <project path="external/chromium" name="platform/external/chromium" remote="ln" revision="linaro_android_4.4.2" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
-  <project path="external/chromium_org" name="android_external_chromium_org" remote="centauri" revision="kk44" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="cm" revision="cm-11.0" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" />
@@ -291,13 +291,13 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
-  <project path="frameworks/webview" name="android_frameworks_webview" remote="centauri" revision="kk44" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" revision="cm-11.0" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="ln" revision="linaro_android_4.4.2" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-11.0" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-11.0" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="centauri" revision="kk44" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="centauri" revision="kk44" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="centauri" revision="kk44" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="centauri" revision="kk44" />
@@ -320,7 +320,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/Apollo" name="omnirom/android_packages_apps_Apollo" remote="gh" revision="android-4.4" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="centauri" revision="kk44" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="centauri" revision="kk44" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="sr" revision="kk4.4" />
@@ -410,7 +410,7 @@
   <project path="system/core" name="android_system_core" remote="centauri" revision="kk44" />
   <project path="system/extras" name="android_system_extras" remote="centauri" revision="kk44" />
   <project path="system/media" name="omnirom/android_system_media" remote="gh" revision="android-4.4" />
-  <project path="system/netd" name="android_system_netd" remote="centauri" revision="kk44" />
+  <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-11.0" />
   <project path="system/qcom" name="android_system_qcom" remote="centauri" revision="kk44" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="android_system_vold" remote="centauri" revision="kk44" />

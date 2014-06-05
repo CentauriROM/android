@@ -297,7 +297,7 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-11.0" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-11.0" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="centauri" revision="kk44" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="centauri" revision="kk44" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="centauri" revision="kk44" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="centauri" revision="kk44" />
@@ -347,7 +347,7 @@
   <project path="packages/apps/LiquidUpdater" name="android_packages_apps_LiquidUpdater" remote="centauri" revision="kk44" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="centauri" revision="kk44"/>
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="centauri" revision="android-4.4" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
@@ -355,7 +355,7 @@
   <project path="packages/apps/Provision" name="packages_apps_Provision" remote="sr" revision="kk4.4" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="centauri" revision="kk44" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="centauri" revision="kk44" />
-  <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="packages_apps_Torch" remote="sr" revision="kk4.4" />

@@ -215,7 +215,7 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" remote="ln" revision="linaro_android_4.4.3" />
-  <project path="external/openssl" name="android_external_openssl" remote="sr" revision="kk4.4" />
+  <project path="external/openssl" name="platform/external/openssl" remote="ln" revision="linaro_android_4.4.3" />
   <project path="external/oprofile" name="android_external_oprofile" remote="centauri" revision="kk44" />
   <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-11.0" />
   <project path="external/pixman" name="platform/external/pixman" />

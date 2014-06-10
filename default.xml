@@ -341,7 +341,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LiquidFileManager" name="android_packages_apps_LiquidFileManager" remote="centauri" revision="kk44" />
   <project path="packages/apps/LiquidStartupService" name="android_packages_apps_LiquidStartupService" remote="centauri" revision="kk44" />
-  <project path="packages/apps/LiquidStats" name="android_packages_apps_LiquidStats" remote="centauri" revision="kk44" />
+  <project path="packages/apps/CentauriStats" name="android_packages_apps_CentauriStats" remote="centauri" revision="kk44" />
   <project path="packages/apps/CentauriLauncher" name="android_packages_apps_CentauriLauncher" remote="centauri" revision="kk44" />
   <project path="packages/apps/LiquidUpdater" name="android_packages_apps_LiquidUpdater" remote="centauri" revision="kk44" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-11.0" />

@@ -41,11 +41,8 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="android" name="android" remote="centauri" revision="kk44" />
-  <project path="art" name="android_art" remote="centauri" revision="kk44" />
-  <project path="bionic" name="android_bionic" remote="centauri" revision="kk44" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-11.0" />
-  <project path="dalvik" name="android_dalvik" remote="centauri" revision="kk44" />
   <project path="development" name="android_development" remote="sr" revision="kk4.4" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
   <project path="external/aac" name="platform/external/aac" />
@@ -95,15 +92,12 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="android_external_clang" remote="centauri" revision="kk44" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="centauri" revision="kk44" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="centauri" revision="kk44" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/ebtables" name="android_external_ebtables" remote="cm" revision="cm-11.0" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
@@ -213,7 +207,6 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" remote="ln" revision="linaro_android_4.4.3" />
   <project path="external/openssl" name="platform/external/openssl" remote="ln" revision="linaro_android_4.4.3" />
-  <project path="external/oprofile" name="android_external_oprofile" remote="centauri" revision="kk44" />
   <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-11.0" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -226,10 +219,8 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/scrypt" name="platform/external/scrypt" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="centauri" revision="kk44" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="android_external_skia" remote="centauri" revision="kk44" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" remote="ln" revision="linaro_android_4.4.3" />
@@ -253,7 +244,6 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" remote="ln" revision="linaro_android_4.4.3" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webp" name="android_external_webp" remote="centauri" revision="kk44" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-11.0" />
   <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-11.0" />
@@ -262,15 +252,12 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-11.0" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-11.0" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="centauri" revision="kk44" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="centauri" revision="kk44" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="ln" revision="linaro_android_4.4.3" />
   <project path="frameworks/ex" name="platform/frameworks/ex" remote="ln" revision="linaro_android_4.4.3" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="centauri" revision="kk44" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/carddav" name="android_frameworks_opt_carddav" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="sr" revision="kk4.4" />
@@ -282,10 +269,8 @@
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="ln" revision="linaro_android_4.4.3" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" remote="cm" revision="cm-11.0" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="centauri" revision="kk44" />
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="sr" revision="kk4.4" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
-  <project path="frameworks/rs" name="android_frameworks_rs" remote="centauri" revision="kk44" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
@@ -297,34 +282,22 @@
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-11.0" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-11.0" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="centauri" revision="kk44" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="centauri" revision="kk44" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="centauri" revision="kk44" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="centauri" revision="kk44" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="centauri" revision="kk44" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="centauri" revision="kk44" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="centauri" revision="kk44" />
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="centauri" revision="kk44" />
   <project path="hardware/qcom/msm8x74" name="android_hardware_qcom_msm8x74" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="centauri" revision="kk44" />
-  <project path="libcore" name="android_libcore" remote="centauri" revision="kk44" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/Apollo" name="omnirom/android_packages_apps_Apollo" remote="gh" revision="android-4.4" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="centauri" revision="kk44" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="centauri" revision="kk44" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sr" revision="kk4.4" />
@@ -332,27 +305,17 @@
   <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="sr" revision="kk4.4" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="centauri" revision="kk44" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="sr" revision="kk4.4" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/KernelTweaker" name="android_packages_apps_KernelTweaker" remote="centauri" revision="kk44" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/CentauriFileManager" name="android_packages_apps_CentauriFileManager" remote="centauri" revision="kk44" />
-  <project path="packages/apps/LiquidStartupService" name="android_packages_apps_LiquidStartupService" remote="centauri" revision="kk44" />
-  <project path="packages/apps/CentauriStats" name="android_packages_apps_CentauriStats" remote="centauri" revision="kk44" />
-  <project path="packages/apps/CentauriLauncher" name="android_packages_apps_CentauriLauncher" remote="centauri" revision="kk44" />
-  <project path="packages/apps/LiquidUpdater" name="android_packages_apps_LiquidUpdater" remote="centauri" revision="kk44" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="centauri" revision="kk44"/>
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Provision" name="packages_apps_Provision" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="centauri" revision="kk44" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="centauri" revision="kk44" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
@@ -362,14 +325,10 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="sr" revision="kk4.4" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="centauri" revision="kk44" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="centauri" revision="kk44" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="sr" revision="kk4.4"  />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="sr" revision="kk4.4" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="centauri" revision="kk44" />
-  <project path="packages/wallpapers/Liquid" name="android_liquid_wallpapers" remote="centauri" revision="kk44" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
@@ -405,13 +364,9 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="b52073d9cb1b044f4701bfc32e60b927323740fb" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="android_sdk" remote="cm" revision="cm-11.0" />
-  <project path="system/core" name="android_system_core" remote="centauri" revision="kk44" />
-  <project path="system/extras" name="android_system_extras" remote="centauri" revision="kk44" />
   <project path="system/media" name="omnirom/android_system_media" remote="gh" revision="android-4.4" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-11.0" />
-  <project path="system/qcom" name="android_system_qcom" remote="centauri" revision="kk44" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="android_system_vold" remote="centauri" revision="kk44" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -420,11 +375,77 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/centauri" name="android_vendor_centauri" remote="centauri" revision="kk44" >
-    <copyfile src="tools/build-centauri.sh" dest="build-centauri.sh" />
-  </project>
   <project path="vendor/tmobile/apps/ThemeChooser" name="ValidusAOSP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="gh" revision="cm-11.0" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="ValidusAOSP/android_vendor_tmobile_libs_com.tmobile.themes" remote="gh" revision="cm-11.0" />
   <project path="vendor/tmobile/providers/ThemeManager" name="ValidusAOSP/android_vendor_tmobile_providers_ThemeManager" remote="gh" revision="cm-11.0" />	
+
+  <!-- CentauriROM Frameworks Start -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="centauri" revision="kk44" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="centauri" revision="kk44" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="centauri" revision="kk44" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="centauri" revision="kk44" />
+  <project path="frameworks/rs" name="android_frameworks_rs" remote="centauri" revision="kk44" />
+  <!-- CentauriROM Frameworks End -->
+
+  <!-- CentauriROM System Start -->
+  <project path="system/core" name="android_system_core" remote="centauri" revision="kk44" />
+  <project path="system/extras" name="android_system_extras" remote="centauri" revision="kk44" />
+  <project path="system/qcom" name="android_system_qcom" remote="centauri" revision="kk44" />
+  <project path="system/vold" name="android_system_vold" remote="centauri" revision="kk44" />
+  <!-- CentauriROM System End  -->
+
+  <!-- CentauriROM Apps Start -->
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="centauri" revision="kk44" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="centauri" revision="kk44" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="centauri" revision="kk44" />
+  <project path="packages/apps/KernelTweaker" name="android_packages_apps_KernelTweaker" remote="centauri" revision="kk44" />
+  <project path="packages/apps/CentauriFileManager" name="android_packages_apps_CentauriFileManager" remote="centauri" revision="kk44" />
+  <project path="packages/apps/LiquidStartupService" name="android_packages_apps_LiquidStartupService" remote="centauri" revision="kk44" />
+  <project path="packages/apps/CentauriStats" name="android_packages_apps_CentauriStats" remote="centauri" revision="kk44" />
+  <project path="packages/apps/CentauriLauncher" name="android_packages_apps_CentauriLauncher" remote="centauri" revision="kk44" />
+  <project path="packages/apps/LiquidUpdater" name="android_packages_apps_LiquidUpdater" remote="centauri" revision="kk44" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="centauri" revision="kk44"/>
+  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="centauri" revision="kk44" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="centauri" revision="kk44" />
+  <!-- CentauriROM Apps End  -->
+
+  <!-- CentauriROM Hardware Start -->
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="centauri" revision="kk44" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="centauri" revision="kk44" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="centauri" revision="kk44" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="centauri" revision="kk44" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="centauri" revision="kk44" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="centauri" revision="kk44" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="centauri" revision="kk44" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="centauri" revision="kk44" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="centauri" revision="kk44" />
+  <!-- CentauriROM Hardware End  -->
+
+  <!-- CentauriROM External Start -->
+  <project path="external/clang" name="android_external_clang" remote="centauri" revision="kk44" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="centauri" revision="kk44" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="centauri" revision="kk44" />
+  <project path="external/oprofile" name="android_external_oprofile" remote="centauri" revision="kk44" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="centauri" revision="kk44" />
+  <project path="external/skia" name="android_external_skia" remote="centauri" revision="kk44" />
+  <project path="external/webp" name="android_external_webp" remote="centauri" revision="kk44" />
+  <!-- CentauriROM External End  -->
+
+  <!-- CentauriROM Other Start -->
+  <project path="art" name="android_art" remote="centauri" revision="kk44" />
+  <project path="bionic" name="android_bionic" remote="centauri" revision="kk44" />
+  <project path="dalvik" name="android_dalvik" remote="centauri" revision="kk44" />
+  <project path="libcore" name="android_libcore" remote="centauri" revision="kk44" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="centauri" revision="kk44" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="centauri" revision="kk44" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="centauri" revision="kk44" />
+  <project path="packages/wallpapers/Liquid" name="android_liquid_wallpapers" remote="centauri" revision="kk44" />
+  <!-- CentauriROM Other End -->
+
+  <!-- CentauriROM Vendor Start -->
+  <project path="vendor/centauri" name="android_vendor_centauri" remote="centauri" revision="kk44" >
+    <copyfile src="tools/build-centauri.sh" dest="build-centauri.sh" />
+  </project>
+  <!-- CentauriROM Vendor End -->
 
 </manifest>

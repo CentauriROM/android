@@ -339,7 +339,7 @@
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="sr" revision="kk4.4" />
   <project path="packages/apps/KernelTweaker" name="android_packages_apps_KernelTweaker" remote="centauri" revision="kk44" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/LiquidFileManager" name="android_packages_apps_LiquidFileManager" remote="centauri" revision="kk44" />
+  <project path="packages/apps/CentauriFileManager" name="android_packages_apps_CentauriFileManager" remote="centauri" revision="kk44" />
   <project path="packages/apps/LiquidStartupService" name="android_packages_apps_LiquidStartupService" remote="centauri" revision="kk44" />
   <project path="packages/apps/CentauriStats" name="android_packages_apps_CentauriStats" remote="centauri" revision="kk44" />
   <project path="packages/apps/CentauriLauncher" name="android_packages_apps_CentauriLauncher" remote="centauri" revision="kk44" />
